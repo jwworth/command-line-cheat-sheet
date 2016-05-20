@@ -316,6 +316,18 @@ Execute a program periodically, with output:
 $ watch <commmand>
 ```
 
+Print a file:
+
+```
+$ lpr <file>
+```
+
+Repeat a command:
+
+```
+$ repeat <n> <command>
+```
+
 ### License
 
 This project is released under the [MIT License](http://www.opensource.org/licenses/MIT).
