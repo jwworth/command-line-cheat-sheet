@@ -63,13 +63,25 @@ $ cat <file>
 Display the last part of a file:
 
 ```
-$ tail
+$ tail <file>
 ```
 
 Display the first lines of a file:
 
 ```
-$ head
+$ head <file>
+```
+
+Remove a file:
+
+```
+$ rm <file>
+```
+
+Securely remove a file:
+
+```
+$ srm <file>
 ```
 
 ### Yellow Belt
