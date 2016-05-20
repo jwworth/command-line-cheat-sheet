@@ -4,6 +4,12 @@
 
 The goal of this document is to be the most exhaustive UNIX command line cheat sheet on the internet.
 
+[White Belt](#white-belt)
+[Yellow Belt](#yellow-belt)
+[Green Belt](#green-belt)
+
+---
+
 ### White Belt
 
 Format and display the online manual pages:
@@ -270,6 +276,26 @@ Match any character in the brackets (will `cat` 'hat.txt' or 'bat.txt'):
 
 ```
 $ cat [hb]at.txt
+```
+
+### Green Belt
+
+Locate a program file in the user's path:
+
+```
+$ which <program>
+```
+
+Locate a program file, or multiple files, in the user's path (alternate):
+
+```
+$ type <program_1> <program_2>
+```
+
+Determine the type of a program (bash):
+
+```
+$ type -t <program>
 ```
 
 ### License
