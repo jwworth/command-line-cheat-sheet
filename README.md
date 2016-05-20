@@ -54,6 +54,24 @@ Remove a non-empty directory:
 $ rm -rf <name>
 ```
 
+Concatenate and print a file:
+
+```
+$ cat <file>
+```
+
+Display the last part of a file:
+
+```
+$ tail
+```
+
+Display the first lines of a file:
+
+```
+$ head
+```
+
 ### Yellow Belt
 
 Interrupt a running program:
