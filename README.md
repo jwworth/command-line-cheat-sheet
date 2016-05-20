@@ -112,7 +112,7 @@ CTRL-d
 
 Delete the rest of the line:
 
-``
+```
 CTRL-k
 ```
 
