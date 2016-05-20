@@ -2,7 +2,7 @@
 
 > 'The less effort, the faster and more powerful you will be.' —Bruce Lee
 
-The goal of this document is to be the most exhaustive command line cheat sheet on the internet.
+The goal of this document is to be the most exhaustive UNIX command line cheat sheet on the internet.
 
 ### White Belt
 
@@ -52,6 +52,104 @@ Remove a non-empty directory:
 
 ```
 $ rm -rf <name>
+```
+
+### Yellow Belt
+
+Interrupt a running program:
+
+```
+CTRL-c
+```
+
+Continue a program:
+
+```
+fg
+```
+
+Delete the last character typed:
+
+```
+CTRL-h
+```
+
+Delete the last word typed:
+
+```
+CTRL-w
+```
+
+Delete the last line typed:
+
+```
+CTRL-u
+```
+
+End text input for many UNIX programs (kills man programs):
+
+```
+CTRL-d
+```
+
+Delete the rest of the line:
+
+``
+CTRL-k
+```
+
+Go to the start of the line:
+
+```
+CTRL-a
+```
+
+Go to the end of the line:
+
+```
+CTRL-e
+```
+
+Go backward without deleting:
+
+```
+CTRL-b
+```
+
+Go forward without deleting:
+
+```
+CTRL-f
+```
+
+Show the last line typed:
+
+```
+CTRL-p
+```
+
+Go forward in the history of commands:
+
+```
+CTRL-n
+```
+
+Complete filename or command up to the point of uniqueness
+
+```
+TAB
+```
+
+Repeate the previous command:
+
+```
+!!
+```
+
+Repeat the last command that starts with a pattern:
+
+```
+!<pattern>
 ```
 
 ### License
