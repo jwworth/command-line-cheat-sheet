@@ -152,6 +152,12 @@ Delete the last line typed:
 CTRL-u
 ```
 
+Yank back the last item erased:
+
+```
+CTRL-y
+```
+
 End text input for many UNIX programs (kills man programs):
 
 ```
