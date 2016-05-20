@@ -24,10 +24,40 @@ List directory contents:
 $ ls
 ```
 
+List directory contents with extra details:
+
+```
+$ ls -l
+```
+
+List directory contents including names that begin with `.`:
+
+```
+$ ls -a
+```
+
 Change directories:
 
 ```
 $ cd <directory>
+```
+
+Change directory to your home directory:
+
+```
+$ cd ~
+``
+
+Copy a file:
+
+```
+$ cp <source_file> <target_file>
+```
+
+Move a file:
+
+```
+$ mv <source> <target>
 ```
 
 Change directories one level up:
@@ -180,6 +210,66 @@ Repeat the last command that starts with a pattern:
 
 ```
 !<pattern>
+```
+
+Terminate a signal or process:
+
+```
+$ kill <pid>
+```
+
+Execute a command as another user:
+
+```
+$ sudo <command>
+```
+
+Show the current date and time:
+
+```
+$ date
+```
+
+Show the current calendar:
+
+```
+$ cal
+```
+
+Show the current calendar for the year:
+
+```
+$ cal -y
+```
+
+Time any command:
+
+```
+$ time <commmand>
+```
+
+Creates a file, or update the timestamp on a file if it already exists:
+
+```
+$ touch <file>
+```
+
+Send ('pipe') the output of one command to another command:
+
+```
+$ <commmand_1> | <commmand_2>
+```
+
+Match any character:
+
+```
+$ *
+```
+
+Match any character in the brackets (will `cat` 'hat.txt' or 'bat.txt'):
+
+```
+$ cat [hb]at.txt
 ```
 
 ### License
