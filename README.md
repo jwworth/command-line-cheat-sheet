@@ -298,6 +298,24 @@ Determine the type of a program (bash):
 $ type -t <program>
 ```
 
+Send a packet to a network host:
+
+```
+$ ping http://some.place
+```
+
+Find a pattern in a file:
+
+```
+$ grep <pattern> <file>
+```
+
+Execute a program periodically, with output:
+
+```
+$ watch <commmand>
+```
+
 ### License
 
 This project is released under the [MIT License](http://www.opensource.org/licenses/MIT).
