@@ -1,5 +1,7 @@
 # Command Line Cheat Sheet
 
+> 'The less effort, the faster and more powerful you will be.' —Bruce Lee
+
 The goal of this document is to be the most exhaustive command line cheat sheet on the internet.
 
 ### White Belt
