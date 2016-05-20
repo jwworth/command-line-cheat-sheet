@@ -46,7 +46,7 @@ Change directory to your home directory:
 
 ```
 $ cd ~
-``
+```
 
 Copy a file:
 
