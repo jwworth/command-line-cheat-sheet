@@ -328,6 +328,25 @@ Repeat a command:
 $ repeat <n> <command>
 ```
 
+Display who is logged in:
+
+```
+$ who
+
+```
+
+Count the words in a file:
+
+```
+$ wc <file>
+```
+
+Display the current username:
+
+```
+$ whoami
+```
+
 ### License
 
 This project is released under the [MIT License](http://www.opensource.org/licenses/MIT).
