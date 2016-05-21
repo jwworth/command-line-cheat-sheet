@@ -278,10 +278,34 @@ Match any character:
 $ *
 ```
 
+Clear the window:
+
+```
+$ clear
+```
+
+Clear the window (alternate):
+
+```
+CTRL-l
+```
+
 Match any character in the brackets (will `cat` 'hat.txt' or 'bat.txt'):
 
 ```
 $ cat [hb]at.txt
+```
+
+Direct the output of a command to a file:
+
+```
+$ <cmd> > <file>
+```
+
+Append the output of a command to a file:
+
+```
+$ <cmd> >> <file>
 ```
 
 ### Green Belt
