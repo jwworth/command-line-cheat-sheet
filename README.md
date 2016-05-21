@@ -4,9 +4,9 @@
 
 The goal of this document is to be the most exhaustive UNIX command line cheat sheet on the internet.
 
-[White Belt](#white-belt)
-[Yellow Belt](#yellow-belt)
-[Green Belt](#green-belt)
+[White Belt](#white-belt) |
+[Yellow Belt](#yellow-belt) |
+[Green Belt](#green-belt) |
 [Purple Belt](#purple-belt)
 
 ---
