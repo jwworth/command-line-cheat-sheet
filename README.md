@@ -7,6 +7,7 @@ The goal of this document is to be the most exhaustive UNIX command line cheat s
 [White Belt](#white-belt)
 [Yellow Belt](#yellow-belt)
 [Green Belt](#green-belt)
+[Purple Belt](#purple-belt)
 
 ---
 
@@ -375,6 +376,44 @@ Display the current username:
 
 ```
 $ whoami
+```
+
+Display currently running processes:
+
+```
+$ ps aux
+```
+
+Display sorted information about currently running processes:
+
+```
+$ top
+```
+
+### Purple Belt
+
+Establish an SSH connection:
+
+```
+$ ssh <username>@<host>
+```
+
+Secure copy a file to a remote host:
+
+```
+$ scp <file> <user>@<host>:/some/path
+```
+
+Transfer data from a URL:
+
+```
+$ curl <url>
+```
+
+Transfer data from a URL (alternate):
+
+```
+$ wget <url>
 ```
 
 ### License
