@@ -127,6 +127,12 @@ Securely remove a file:
 $ srm <file>
 ```
 
+Open a file:
+
+```
+$ open <file>
+```
+
 ### Yellow Belt
 
 Interrupt a running program:
@@ -444,6 +450,36 @@ Find a file:
 
 ```
 $ locate <file>
+```
+
+Display free disk space:
+
+```
+$ df
+```
+
+Learn about your network:
+
+```
+$ ifconfig
+```
+
+Replace a word in a file with the stream editor:
+
+```
+$ sed s/maine/california/g states
+```
+
+Change a user's password:
+
+```
+$ passwd <user>
+```
+
+Search through previously typed commands:
+
+```
+CTRL-r
 ```
 
 ### License
