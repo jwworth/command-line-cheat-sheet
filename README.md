@@ -103,6 +103,12 @@ Display the last part of a file:
 $ tail <file>
 ```
 
+Display the last part of a file, and wait for additional data (useful for logs):
+
+```
+$ tail -f <file>
+```
+
 Display the first lines of a file:
 
 ```
@@ -323,6 +329,12 @@ Locate a program file, or multiple files, in the user's path (alternate):
 $ type <program_1> <program_2>
 ```
 
+Locate a program:
+
+```
+$ whereis <program>
+```
+
 Determine the type of a program (bash):
 
 ```
@@ -414,6 +426,24 @@ Transfer data from a URL (alternate):
 
 ```
 $ wget <url>
+```
+
+Print operating system name:
+
+```
+$ uname -a
+```
+
+Show how long system has been running:
+
+```
+$ uptime
+```
+
+Find a file:
+
+```
+$ locate <file>
 ```
 
 ### License
