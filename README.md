@@ -4,13 +4,16 @@
 
 The goal of this document is to be the most exhaustive UNIX command line cheat sheet on the internet.
 
-[Basics](#basics) |
-[File Management](#file-management) |
-[Directory Management](#directory-management) |
-[Network Management](#network-management) |
-[OS Management](#os-management) |
-[Manipulate Commands](#manipulate-commands) |
-[Etc.](#etc.)
+### Contents
+
+* [Basics](#basics)
+* [File Management](#file-management)
+* [Directory Management](#directory-management)
+* [Network Management](#network-management)
+* [OS Management](#os-management)
+* [Manipulate Commands](#manipulate-commands)
+* [Etc.](#etc)
+* [License](#license)
 
 ---
 
