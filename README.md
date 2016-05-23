@@ -75,13 +75,14 @@ The goal of this document is to be the most exhaustive UNIX command line cheat s
 
 | Description | Command |
 | ----------- | ----------- |
-| Locate a program | `$ whereis <program>` |
 | Terminate a signal or process | `$ kill <pid>` |
 | Continue a program | `fg` |
 | Display free disk space | `$ df` |
 | Locate a program file in the user's path | `$ which <program>` |
 | Locate a program file, or multiple files, in the user's path (alternate) | `$ type <program_1> <program_2>` |
 | Locate a program | `$ whereis <program>` |
+| Search the whatis databse for system comands | `$ whatis <command>` |
+| Searches the whatis database for strings | `$ apropos <command>` |
 | Determine the type of a program (bash) | `$ type -t <program>` |
 | Display who is logged in | `$ who` |
 | Change a user's password | `$ passwd <user>` |
