@@ -2,8 +2,6 @@
 
 > 'The less effort, the faster and more powerful you will be.' —Bruce Lee
 
-The goal of this document is to be the most exhaustive UNIX command line cheat sheet on the internet.
-
 ### Contents
 
 * [Basics](#basics)
@@ -13,6 +11,7 @@ The goal of this document is to be the most exhaustive UNIX command line cheat s
 * [OS Management](#os-management)
 * [Manipulate Commands](#manipulate-commands)
 * [Etc.](#etc)
+* [Contributing](#contributing)
 * [License](#license)
 
 ---
@@ -131,6 +130,13 @@ The goal of this document is to be the most exhaustive UNIX command line cheat s
 | Match any character in the brackets (will `cat` 'hat.txt' or 'bat.txt') | `$ cat [hb]at.txt` |
 | Execute a program periodically, with output | `$ watch <commmand>` |
 | Repeat a command | `$ repeat <n> <command>` |
+
+### Contributing
+
+The goal of this document is to be the most exhaustive UNIX command line cheat
+sheet on the internet. I would be grateful and gratified of somebody
+contributed! Please open a pull request or issue if you have some UNIX tips to
+share.
 
 ### License
 
