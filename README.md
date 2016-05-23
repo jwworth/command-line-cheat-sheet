@@ -134,7 +134,7 @@
 ### Contributing
 
 The goal of this document is to be the most exhaustive UNIX command line cheat
-sheet on the internet. I would be grateful and gratified of somebody
+sheet on the internet. I would be grateful and gratified if somebody
 contributed! Please open a pull request or issue if you have some UNIX tips to
 share.
 
