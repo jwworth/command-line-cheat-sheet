@@ -11,6 +11,7 @@
 * [OS Management](#os-management)
 * [Manipulate Commands](#manipulate-commands)
 * [Etc.](#etc)
+* [About](#about)
 * [Contributing](#contributing)
 * [License](#license)
 
@@ -131,12 +132,15 @@
 | Execute a program periodically, with output | `$ watch <commmand>` |
 | Repeat a command | `$ repeat <n> <command>` |
 
+### About
+
+The goal of this document is to be an exhaustive UNIX command line cheat sheet.
+It is inspired by all the cheat sheets that have come before.
+
 ### Contributing
 
-The goal of this document is to be the most exhaustive UNIX command line cheat
-sheet on the internet. I would be grateful and gratified if somebody
-contributed! Please open a pull request or issue if you have some UNIX tips to
-share.
+I would be grateful and gratified if somebody contributed! Please open a pull
+request or issue if you have some UNIX tips to share.
 
 ### License
 
