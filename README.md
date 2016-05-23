@@ -4,7 +4,21 @@
 
 The goal of this document is to be the most exhaustive UNIX command line cheat sheet on the internet.
 
+[Basics](#basics) |
+[File Management](#file-management) |
+[Directory Management](#directory-management) |
+[Network Management](#network-management) |
+[OS Management](#os-management) |
+[Manipulate Commands](#manipulate-commands) |
+[Etc.](#etc.)
+
 ---
+
+### Basics
+
+| Description | Command |
+| ----------- | ----------- |
+| Format and display the online manual pages | `$ man <command>` |
 
 ### File Management
 
@@ -25,6 +39,9 @@ The goal of this document is to be the most exhaustive UNIX command line cheat s
 | Print a file | `$ lpr <file>` |
 | Count the words in a file | `$ wc <file>` |
 | Secure copy a file to a remote host | `$ scp <file> <user>@<host>:/some/path` |
+| Replace a word in a file with the stream editor | `$ sed s/maine/california/g states` |
+| Find a file | `$ locate <file>` |
+| Find a pattern in a file | `$ grep <pattern> <file>` |
 
 ### Directory Management
 
@@ -40,6 +57,38 @@ The goal of this document is to be the most exhaustive UNIX command line cheat s
 | Make a directory | `$ mkdir <name>` |
 | Remove a directory | `$ rmdir <name>` |
 | Remove a non-empty directory | `$ rm -rf <name>` |
+
+### Network Management
+
+| Description | Command |
+| ----------- | ----------- |
+| Send a packet to a network host | `$ ping http://some.place` |
+| Establish an SSH connection | `$ ssh <username>@<host>` |
+| Learn about your network | `$ ifconfig` |
+| Transfer data from a URL | `$ curl <url>` |
+| Transfer data from a URL (alternate) | `$ wget <url>` |
+
+### OS Management
+
+| Description | Command |
+| ----------- | ----------- |
+| Locate a program | `$ whereis <program>` |
+| Terminate a signal or process | `$ kill <pid>` |
+| Continue a program | `fg` |
+| Display free disk space | `$ df` |
+| Locate a program file in the user's path | `$ which <program>` |
+| Locate a program file, or multiple files, in the user's path (alternate) | `$ type <program_1> <program_2>` |
+| Locate a program | `$ whereis <program>` |
+| Determine the type of a program (bash) | `$ type -t <program>` |
+| Display who is logged in | `$ who` |
+| Change a user's password | `$ passwd <user>` |
+| Print operating system name | `$ uname -a` |
+| Display the current username | `$ whoami` |
+| Display currently running processes | `$ ps aux` |
+| Display sorted information about currently running processes | `$ top` |
+| Show how long system has been running | `$ uptime` |
+| End text input for many UNIX programs (kills man programs) | `CTRL-d` |
+| Execute a command as another user | `$ sudo <command>` |
 
 ### Manipulate Commands
 
@@ -62,44 +111,22 @@ The goal of this document is to be the most exhaustive UNIX command line cheat s
 | Clear the window | `$ clear` |
 | Clear the window (alternate) | `CTRL-l` |
 | Send ('pipe') the output of one command to another command | `$ <commmand_1> <commmand_2>` |
+| Repeat the previous command | `!! ` |
+| Repeat the last command that starts with a pattern | `!<pattern>` |
+
+
+### Etc.
 
 | Description | Command |
 | ----------- | ----------- |
-| Format and display the online manual pages | `$ man <command>` |
-| Continue a program | `fg` |
-| End text input for many UNIX programs (kills man programs) | `CTRL-d` |
-| Repeat the previous command | `!! ` |
-| Repeat the last command that starts with a pattern | `!<pattern>` |
-| Terminate a signal or process | `$ kill <pid>` |
-| Execute a command as another user | `$ sudo <command>` |
 | Show the current date and time | `$ date` |
 | Show the current calendar | `$ cal` |
 | Show the current calendar for the year | `$ cal -y` |
 | Time any command | `$ time <commmand>` |
 | Match any character | `$ *` |
 | Match any character in the brackets (will `cat` 'hat.txt' or 'bat.txt') | `$ cat [hb]at.txt` |
-| Locate a program file in the user's path | `$ which <program>` |
-| Locate a program file, or multiple files, in the user's path (alternate) | `$ type <program_1> <program_2>` |
-| Locate a program | `$ whereis <program>` |
-| Determine the type of a program (bash) | `$ type -t <program>` |
-| Send a packet to a network host | `$ ping http://some.place` |
-| Find a pattern in a file | `$ grep <pattern> <file>` |
 | Execute a program periodically, with output | `$ watch <commmand>` |
 | Repeat a command | `$ repeat <n> <command>` |
-| Display who is logged in | `$ who` |
-| Display the current username | `$ whoami` |
-| Display currently running processes | `$ ps aux` |
-| Display sorted information about currently running processes | `$ top` |
-| Establish an SSH connection | `$ ssh <username>@<host>` |
-| Transfer data from a URL | `$ curl <url>` |
-| Transfer data from a URL (alternate) | `$ wget <url>` |
-| Print operating system name | `$ uname -a` |
-| Show how long system has been running | `$ uptime` |
-| Find a file | `$ locate <file>` |
-| Display free disk space | `$ df` |
-| Learn about your network | `$ ifconfig` |
-| Replace a word in a file with the stream editor | `$ sed s/maine/california/g states` |
-| Change a user's password | `$ passwd <user>` |
 
 ### License
 
