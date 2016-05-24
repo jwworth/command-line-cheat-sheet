@@ -96,6 +96,8 @@
 | End text input for many UNIX programs (kills man programs)               | `CTRL-d`                         |
 | Execute a command as another user                                        | `$ sudo <command>`               |
 | Stop and restart the system                                              | `$ reboot`                       |
+| Change shell (same as `chfn` and `chsh`)                                 | `$ chpass -s <newshell>`         |
+| View shells acceptable via `chpass`                                      | `$ cat /etc/shells`              |
 
 ### Manipulate Commands
 
