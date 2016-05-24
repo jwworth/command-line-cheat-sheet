@@ -19,8 +19,8 @@
 
 ### Basics
 
-| Description | Command |
-| ----------- | ----------- |
+| Description                                | Command           |
+| -----------                                | -----------       |
 | Format and display the online manual pages | `$ man <command>` |
 
 ### File Management
@@ -124,16 +124,16 @@
 
 ### Etc.
 
-| Description | Command |
-| ----------- | ----------- |
-| Show the current date and time | `$ date` |
-| Show the current calendar | `$ cal` |
-| Show the current calendar for the year | `$ cal -y` |
-| Time any command | `$ time <commmand>` |
-| Match any character | `$ *` |
-| Match any character in the brackets (will `cat` 'hat.txt' or 'bat.txt') | `$ cat [hb]at.txt` |
-| Execute a program periodically, with output | `$ watch <commmand>` |
-| Repeat a command | `$ repeat <n> <command>` |
+| Description                                                             | Command                  |
+| -----------                                                             | -----------              |
+| Show the current date and time                                          | `$ date`                 |
+| Show the current calendar                                               | `$ cal`                  |
+| Show the current calendar for the year                                  | `$ cal -y`               |
+| Time any command                                                        | `$ time <commmand>`      |
+| Match any character                                                     | `$ *`                    |
+| Match any character in the brackets (will `cat` 'hat.txt' or 'bat.txt') | `$ cat [hb]at.txt`       |
+| Execute a program periodically, with output                             | `$ watch <commmand>`     |
+| Repeat a command                                                        | `$ repeat <n> <command>` |
 
 ### About
 
