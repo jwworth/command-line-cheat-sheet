@@ -29,10 +29,10 @@
 | -----------                                                                     | -----------                                |
 | Copy a file                                                                     | `$ cp <source_file> <target_file>`         |
 | Move a file                                                                     | `$ mv <source> <target>`                   |
-| Move using brace expansion                                                      | `$ mv <file>{old_extension, new_extension}` |
+| Move using brace expansion                                                      | `$ mv <file>{old_ext, new_ext}`            |
 | Concatenate and print a file                                                    | `$ cat <file>`                             |
 | Display the last part of a file                                                 | `$ tail <file>`                            |
-| Display the last part of a file, and wait for additional data (useful for logs) | `$ tail -f <file>`                         |
+| Display the last part of a file, and wait for additional data                   | `$ tail -f <file>`                         |
 | Display the first lines of a file                                               | `$ head <file>`                            |
 | Remove a file                                                                   | `$ rm <file>`                              |
 | Securely remove a file                                                          | `$ srm <file>`                             |
