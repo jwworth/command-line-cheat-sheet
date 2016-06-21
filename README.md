@@ -144,8 +144,11 @@ It is inspired by all the cheat sheets that have come before.
 
 ### Contributing
 
-I would be grateful and gratified if somebody contributed! Please open a pull
-request or issue if you have some UNIX tips to share.
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
 
 ### License
 
