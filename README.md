@@ -123,6 +123,8 @@
 | Repeat the previous command                                | `!! `                          |
 | Repeat the last command that starts with a pattern         | `!<pattern>`                   |
 | Search and replace previous command                        | `^<old_pattern>^<new_pattern>` |
+| Edit current command in text editor                        | `CTRL-x CTRL-e`                |
+
 
 ### Etc.
 
